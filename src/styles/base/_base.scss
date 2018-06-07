@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    background: $blue-gray;
+}
+
+button {
+    cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+}
+
+input:focus {
+    outline-color: $off-white;
+}
+
+button:focus {
+    outline:0;
+}
